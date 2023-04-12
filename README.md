@@ -31,9 +31,24 @@ Test the application and ensure all functionalities are working as expected. <br
 
 ## Codes
 
+* Database: To store the user records, it creates a MySQL database with a table called users that has the following columns:
+
+id (auto-incremented integer, primary key)
+title (varchar)
+first_name (varchar)
+last_name (varchar)
+street (varchar)
+city (varchar)
+state (varchar)
+country (varchar)
+postcode (varchar)
+email (varchar)
+phone (varchar)
+picture (varchar)
+
 1. index.php
 
-This code includes all PHP files.
+In this code, it imported all PHP codes.
 
 2. fetch-users.php
 
